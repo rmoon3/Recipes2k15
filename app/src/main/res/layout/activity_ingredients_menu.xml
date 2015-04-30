@@ -34,9 +34,10 @@
         android:layout_height="wrap_content"
         android:text="@string/search"
         android:id="@+id/button3"
-        android:onClick="OnClick"
+        android:onClick="searchRecipes"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:nestedScrollingEnabled="false" />
 
     <TextView
         android:layout_width="300dp"

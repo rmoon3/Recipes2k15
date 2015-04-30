@@ -2,6 +2,7 @@ package group.cooking;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -80,6 +81,16 @@ public class IngredientsMenu extends ActionBarActivity {
         input.setText(null);
     }
 
+    public void searchRecipes(View v)
+    {
+        Bundle bundel = new Bundle();
+        bundel.putStringArray("ingredients", ingredients);
+
+        Intent intent = new Intent(this, RecipesMenu.class);
+        intent.putExtras(bundel);
+        startActivity(intent);
+
+    }
     public void  clearButton(View v)
     {
         //Button button = (Button) v;

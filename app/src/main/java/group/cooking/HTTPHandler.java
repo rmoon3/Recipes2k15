@@ -1,4 +1,4 @@
-package httphandler;
+package group.cooking;
 
 import java.io.*;
 
@@ -66,15 +66,15 @@ public class HTTPHandler {
 	public static void main(String[] args) throws Exception {
 		
 		/*
-		Test code
 		
 		ArrayList<String> input = new ArrayList<String>();
 		input.add("cinnamon");
 		input.add("apple");
 		
 		System.out.println(getRecipes(input));
-		
+
 		*/
+
 	}
 	
 }

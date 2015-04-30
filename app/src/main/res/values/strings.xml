@@ -13,4 +13,7 @@
 
     <string name="ingredient_hint">Type Ingredient Here</string>
     <string name="enter">Enter</string>
+    <string name="search">Search</string>
+    <string name="YourIngredients">Your Ingredients</string>
+    <string name="clearsearch">Clear Search</string>
 </resources>
