@@ -3,6 +3,7 @@ package group.cooking;
 import java.util.*;
 
 public class Recipe {
+    //stuff
 	
 	public String cookingMethod, cuisine, name, imageURL, URL;
 	public ArrayList<String> ingredients;
